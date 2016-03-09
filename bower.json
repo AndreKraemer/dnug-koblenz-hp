@@ -1,0 +1,19 @@
+{
+  "name": "dnugkoblenzhomepage",
+  "description": "Homepage der .NET User Group Koblenz",
+  "main": "index.js",
+  "authors": [
+    "Andre Kraemer"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "http://dnug-koblenz.de",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
