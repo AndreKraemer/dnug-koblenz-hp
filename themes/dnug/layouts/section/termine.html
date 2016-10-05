@@ -1,0 +1,13 @@
+{{ partial "header.html" . }} {{ range .Data.Pages.ByDate.Reverse }}
+
+<div class="col-md-10 artikel">
+    <h3>{{ .Title }}, {{ .Date.Format "02.01.2006"}} um {{ .Date.Format "15:04" }} Uhr in den Räumen des TZK Koblenz mit <a href="{{ .Params.speakerurl}}">
+                        {{ .Params.speaker}} <br/></a></h3>
+    <p>
+        {{ .Summary}} <br/>
+    </p>
+    <div>
+        <a href="{{ .RelPermalink }}" class="btn btn-default mehrlesen">Mehr Lesen  <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+    </div>
+</div>
+{{ end }} {{ partial "footer.html" . }}

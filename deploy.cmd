@@ -1,3 +1,4 @@
+call hugo.bat
 call npm install 
 IF "%ERRORLEVEL%" NEQ "0" goto error
 
@@ -8,7 +9,7 @@ del /q %DEPLOYMENT_TARGET%\*
 for /d %%x in (%DEPLOYMENT_TARGET%\*) do @rd /s /q "%%x"
 IF "%ERRORLEVEL%" NEQ "0" goto error
 
-xcopy %DEPLOYMENT_SOURCE%\dist %DEPLOYMENT_TARGET% /Y /E
+xcopy %DEPLOYMENT_SOURCE%\public %DEPLOYMENT_TARGET% /Y /E
 IF "%ERRORLEVEL%" NEQ "0" goto error
 
 goto end

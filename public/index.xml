@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>.NET User Group Koblenz</title>
+    <link>http://dnug-koblenz.de/</link>
+    <description>Recent content on .NET User Group Koblenz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Thu, 25 Aug 2016 08:39:18 +0200</lastBuildDate>
+    <atom:link href="http://dnug-koblenz.de/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>aurelia mit andre kraemer</title>
+      <link>http://dnug-koblenz.de/termine/aurelia-mit-andre-kraemer/</link>
+      <pubDate>Thu, 25 Aug 2016 08:39:18 +0200</pubDate>
+      
+      <guid>http://dnug-koblenz.de/termine/aurelia-mit-andre-kraemer/</guid>
+      <description>
+
+&lt;h2 id=&#34;vortrag-über-aurelia:0c71beedbe6a11a52002a20003f7c62f&#34;&gt;Vortrag über aurelia&lt;/h2&gt;
+
+&lt;p&gt;André wird sprechen.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Microservices</title>
+      <link>http://dnug-koblenz.de/termine/microservices-mit-frank-pommerening/</link>
+      <pubDate>Tue, 24 May 2016 19:00:00 +0200</pubDate>
+      
+      <guid>http://dnug-koblenz.de/termine/microservices-mit-frank-pommerening/</guid>
+      <description>
+
+&lt;h2 id=&#34;abstract:ffb6b45d2a344ff4aa27a509a1287b2e&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Microservices sind immer verfügbar und die Erde ist eine Scheibe – beides sind Aussagen, die nachgewiesenermaßen falsch sind,
+auch wenn es einige Verwirrte gibt, die anderes behaupten. Dieser Vortrag betrachtet, wie .NET Microservices mittels RabbitMQ
+robuster miteinander verbunden werden können. Dabei werden die Verfahren Publish / Subscribe bzw. Request / Response sowie die
+Fehlerbehandlung beleuchtet.&lt;/p&gt;
+
+&lt;p&gt;Nebenbei geht es um die Grundlagen von RabbitMQ in Windows- und Containerumgebungen. Anhand praxisnaher Beispiele werden die
+Vor- und Nachteile gegenüber der Verknüpfung mit HTTP gezeigt.&lt;/p&gt;
+
+&lt;h2 id=&#34;über-den-sprecher:ffb6b45d2a344ff4aa27a509a1287b2e&#34;&gt;Über den Sprecher&lt;/h2&gt;
+
+&lt;p&gt;Frank Pommerening ist seit 2004 Softwareentwickler und -architekt im Bereich .NET-Technologien.
+Er beschäftigt sich u. a. seit mehreren Jahren mit PostSharp sowie verteilten Anwendungen. Aktuell ist er Senior
+Softwareentwickler bei der AXP Consulting GmbH und Co. KG in Leipzig.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Über uns</title>
+      <link>http://dnug-koblenz.de/ueber/</link>
+      <pubDate>Tue, 24 May 2016 12:17:56 +0200</pubDate>
+      
+      <guid>http://dnug-koblenz.de/ueber/</guid>
+      <description>&lt;p&gt;Die .NET User Group Koblenz ist ein freier Zusammenschluss&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

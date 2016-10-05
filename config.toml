@@ -1,0 +1,20 @@
+baseurl = "http://dnug-koblenz.de/"
+languageCode = "de"
+title = ".NET User Group Koblenz"
+theme = "dnug"
+
+[[menu.main]]
+    name = "Home"
+    weight = 0
+    identifier = "home"
+    url = "/"
+[[menu.main]]
+    name = "Termine"
+    weight = 10
+    url = "/termine/"
+    identifier = "termine"
+[[menu.main]]
+    name = "Über uns"
+    weight = 10
+    url = "/ueber-uns/"
+    identifier = "ueberuns"

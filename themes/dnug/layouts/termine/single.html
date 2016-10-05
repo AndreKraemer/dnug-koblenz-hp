@@ -1,0 +1,9 @@
+{{ partial "header.html" . }}
+       <h2> {{ .Date.Format "02.01.2006"}} um {{ .Date.Format "15:04" }} Uhr: {{ .Title }} mit {{if isset .Params "speaker" }} {{ .Params.speaker }} {{ end }}</h2>    
+       {{ .Content }}
+       {{if isset .Params "registerurl" }}
+       <div class="register">
+           <a href="{{ .Params.registerurl }}">Hier zum Termin anmelden</a>
+       </div>
+       {{ end }}
+{{ partial "footer.html" . }}

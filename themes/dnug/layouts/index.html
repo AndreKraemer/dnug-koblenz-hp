@@ -1,0 +1,40 @@
+{{ partial "header.html" . }}
+    <div class="row">
+        
+        {{ range first 10 (where .Data.Pages "Section" "termine") }}
+        <div class="container">
+           <div class="row">
+            <div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-md-1">
+                            <div class="date">
+                                <p>24</p>
+                                <p>Mai</p>
+                            </div>
+                        </div>
+                        <div class="col-md-9 artikel">
+                            <h3>{{.Title}}, {{ .Date.Format "02.01.2006"}} um {{ .Date.Format "15:04" }} Uhr in den Räumen des TZK Koblenz mit <a href="https://www.xing.com/profile/Frank_Pommerening3">
+                             <i class="fa fa-xing" aria-hidden="true"></i> 
+                        {{ .Params.speaker}} <br/></a></h3>
+                            <p>
+                                {{ .Summary}} <br/>
+                            </p>
+                            <div>
+                                <a href="{{ .Permalink }}" class="btn btn-default mehrlesen">Mehr Lesen  <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+
+        {{ end }}
+       <div class="container col-md-3 bilder">
+               <div><img src="/img/ineta.png" alt=""></div>
+       </div>
+        </div>
+    </div>
+</div>
+{{ partial "footer.html" . }}
+    

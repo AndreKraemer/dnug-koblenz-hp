@@ -1,0 +1,154 @@
+header {
+        background-image: url('/img/header.png');
+        background-size: cover;    
+}
+
+#logo,h4 {
+        margin-top: 20px;
+}
+default .navbar-nav>li>a:hover{
+        color: white;
+}
+
+
+ul.nav li {
+        background-color: #48A4D8;
+        color: white;
+}
+
+ul.nav li:hover, ul.nav li:active, .mehrlesen:hover {
+        background-color: #F38F3F;
+        color: white;
+}
+
+ul.nav li:visited {
+        color: white;       
+}
+
+ul.nav li:link{
+        color: white;
+        text-decoration: none;        
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+        color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+color: white;
+padding: 7px;
+}
+
+.navbar {
+        background-color: transparent;
+        background: transparent;
+        border-color: transparent;
+}
+
+.navbar-collapse {
+padding-left: 0px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #48A4D8;;
+}
+
+h1{
+margin-top: 25px;
+color: ghostwhite;
+font-size: 200%;
+}
+
+.date {
+    background-color: white;
+    color: black;
+    width: 85px;
+    font-weight: bold;
+    font-size: 12pt;
+    border: 1px solid gray;
+    text-align: center;
+    margin-top: 20px;
+ 
+}
+
+.date p:first-child{
+        padding: 10px;
+        margin-bottom: 0px;
+}
+
+.date p:last-child{
+        color: white;
+        background-color: #F38F3F;
+        padding: 10px;
+        border-top: 1px solid gray;
+        margin-bottom: 0px;
+}
+.artikel{
+border-bottom: solid lightgray 1px;
+margin-left: 40px;
+
+}
+
+.artikel>h4>a{
+    color: #48A4D8;
+}
+
+.artikel>h4>a:visited{
+        color: #48A4D8;
+}
+
+
+.mehrlesen{
+            background-color: #48A4D8;;
+            color: white;
+            border-radius: 0px;
+             float: right;
+
+}
+
+footer{
+        padding: 25px;
+        background-color: darkgray;
+}
+
+footer>a{
+        color: white;
+        margin-left: 150px;
+}
+
+.ftr.kontakt{
+        color: white;
+        float: right;
+        margin-right: 150px;
+}
+
+.ftr.impressum{
+         color: white;
+        float: right;
+        margin-right: 0px;
+}
+
+.bilder{
+border: solid lightgrey 1px;
+vertical-align: text-top;
+padding: 15px;
+
+}
+
+@media screen and (min-width: 768px) {
+ul.nav li, .mehrlesen {
+        margin-left: 250px;
+        padding: 01px 50px;
+        display: inline-block;
+        font-size: 14px;
+        margin: 30px 1px;
+        transition-duration: 0.4s;
+        text-align: center;
+}
+
+
+}
