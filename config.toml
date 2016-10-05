@@ -2,6 +2,7 @@ baseurl = "http://dnug-koblenz.de/"
 languageCode = "de"
 title = ".NET User Group Koblenz"
 theme = "dnug"
+pluralizelisttitles = false
 
 [[menu.main]]
     name = "Home"

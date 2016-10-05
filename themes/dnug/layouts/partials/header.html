@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>{{ .Title}}</title>
+ <title>{{ .Site.Title }} | {{ .Title }}</title>
+    {{ if isset .Params "description" }}<meta name="description" content="{{ .Description }}">{{ end }}
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/dnug.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
