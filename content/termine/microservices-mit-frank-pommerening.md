@@ -10,7 +10,7 @@ speakerurl = "https://www.xing.com/profile/Frank_Pommerening3"
 
 Microservices sind immer verfügbar und die Erde ist eine Scheibe – beides sind Aussagen, die nachgewiesenermaßen falsch sind, 
 auch wenn es einige Verwirrte gibt, die anderes behaupten. Dieser Vortrag betrachtet, wie .NET Microservices mittels RabbitMQ 
-robuster miteinander verbunden werden können. Dabei werden die Verfahren Publish / Subscribe bzw. Request / Response sowie die 
+robuster miteinander verbunden werden können. <!--more--> Dabei werden die Verfahren Publish / Subscribe bzw. Request / Response sowie die 
 Fehlerbehandlung beleuchtet.
 
 Nebenbei geht es um die Grundlagen von RabbitMQ in Windows- und Containerumgebungen. Anhand praxisnaher Beispiele werden die 

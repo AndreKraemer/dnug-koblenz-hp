@@ -150,16 +150,5 @@ ul.nav li, .mehrlesen {
         text-align: center;
 }
 
-.tile{ 
-    width:100%;
-    display: inline-block;
-    box-sizing: border-box;
-    background: #fff;       
-    padding: 15px;
-    margin-bottom: 20px;
-    color:#fff;
-    margin-top: 0px;
-    text-align:center;     
-}
 
 }

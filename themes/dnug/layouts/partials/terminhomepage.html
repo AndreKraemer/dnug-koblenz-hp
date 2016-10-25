@@ -1,6 +1,11 @@
-{{ partial "header.html" . }} {{ range .Data.Pages.ByDate.Reverse }}
-
-<div class="col-md-10 artikel">
+<div class="row">
+    <div class="col-md-1">
+        <div class="date">
+            <p>{{ .Date.Format "02"}} </p>
+            <p>{{ .Date.Format "Jan"}}</p>
+        </div>
+    </div>
+    <div class="col-md-9 artikel">
         <h3>{{.Title}}, {{ .Date.Format "02.01.2006"}} um {{ .Date.Format "15:04" }} Uhr in den Räumen des TZK Koblenz mit 
             {{if isset .Params "speaker" }} 
                 {{if isset .Params "speakerurl" }}
@@ -18,4 +23,4 @@
             <a href="{{ .Permalink }}" class="btn btn-default mehrlesen">Mehr Lesen  <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
         </div>
     </div>
-{{ end }} {{ partial "footer.html" . }}
+</div>

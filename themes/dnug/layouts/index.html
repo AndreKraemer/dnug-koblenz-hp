@@ -1,40 +1,27 @@
 {{ partial "header.html" . }}
-    <div class="row">
-        
+<div class="row">
+    <div class="col-md-9">
+        <h2>Kommende Treffen</h2>
+        {{ $futureMeetingsFound := false }}
         {{ range first 10 (where .Data.Pages "Section" "termine") }}
-        <div class="container">
-           <div class="row">
-            <div>
-                <div class="col-md-9">
-                    <div class="row">
-                        <div class="col-md-1">
-                            <div class="date">
-                                <p>24</p>
-                                <p>Mai</p>
-                            </div>
-                        </div>
-                        <div class="col-md-9 artikel">
-                            <h3>{{.Title}}, {{ .Date.Format "02.01.2006"}} um {{ .Date.Format "15:04" }} Uhr in den Räumen des TZK Koblenz mit <a href="https://www.xing.com/profile/Frank_Pommerening3">
-                             <i class="fa fa-xing" aria-hidden="true"></i> 
-                        {{ .Params.speaker}} <br/></a></h3>
-                            <p>
-                                {{ .Summary}} <br/>
-                            </p>
-                            <div>
-                                <a href="{{ .Permalink }}" class="btn btn-default mehrlesen">Mehr Lesen  <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                      
-                    </div>
-                </div>
-            </div>
-
+            {{ if ge .Date.Unix .Now.Unix }}
+                {{ $futureMeetingsFound := true }}
+                {{ partial "terminhomepage.html" . }}
+            {{ end }}
         {{ end }}
-       <div class="container col-md-3 bilder">
-               <div><img src="/img/ineta.png" alt=""></div>
-       </div>
-        </div>
+        {{ if eq $futureMeetingsFound false}}
+            Aktuell planen wir das nächste Treffen. Sobald wir einen Termin gefunden haben werden wir ihn hier veröffentlichen
+        {{ end}}
+         <h2>Vergangene Treffen</h2>
+        {{ $futureMeetingsFound := false }}
+        {{ range first 10 (where .Data.Pages "Section" "termine") }}
+            {{ if lt .Date.Unix .Now.Unix }}
+                {{ partial "terminhomepage.html" . }}
+            {{ end }}
+        {{ end }}
+    </div>
+    <div class="col-md-3 bilder">
+        <div><img src="/img/ineta.png" alt=""></div>
     </div>
 </div>
 {{ partial "footer.html" . }}
-    

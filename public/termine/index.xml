@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Termines on .NET User Group Koblenz</title>
+    <title>Termine on .NET User Group Koblenz</title>
     <link>http://dnug-koblenz.de/termine/</link>
-    <description>Recent content in Termines on .NET User Group Koblenz</description>
+    <description>Recent content in Termine on .NET User Group Koblenz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <lastBuildDate>Thu, 25 Aug 2016 08:39:18 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jun 2016 19:00:00 +0200</lastBuildDate>
     <atom:link href="http://dnug-koblenz.de/termine/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>aurelia mit andre kraemer</title>
-      <link>http://dnug-koblenz.de/termine/aurelia-mit-andre-kraemer/</link>
-      <pubDate>Thu, 25 Aug 2016 08:39:18 +0200</pubDate>
+      <title>Xamarin</title>
+      <link>http://dnug-koblenz.de/termine/xamarin-mit-kerry-lothrop/</link>
+      <pubDate>Wed, 29 Jun 2016 19:00:00 +0200</pubDate>
       
-      <guid>http://dnug-koblenz.de/termine/aurelia-mit-andre-kraemer/</guid>
+      <guid>http://dnug-koblenz.de/termine/xamarin-mit-kerry-lothrop/</guid>
       <description>
 
-&lt;h2 id=&#34;vortrag-über-aurelia:0c71beedbe6a11a52002a20003f7c62f&#34;&gt;Vortrag über aurelia&lt;/h2&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 
-&lt;p&gt;André wird sprechen.&lt;/p&gt;
+&lt;p&gt;Write once, run everywhere? Für Mobilgeräte gibt es unterschiedliche Ansätze, dieses Ziel zu erreichen. Für .NET-Entwickler besonders spannend
+ist der Cross-Compile-Ansatz von Xamarin, der es ermöglicht, eine gemeinsame C#-Codebasis für die wichtigsten Plattformen zu pflegen und
+trotzdem native Oberflächen zu verwenden.  Mit Hilfe des MvvmCross-Frameworks soll während des Vortrags in Visual Studio eine App erstellt werden,
+die Code Sharing bis einschließlich ViewModel ermöglicht und native Oberflächen für Android, iOS und Windows Phone umsetzt.&lt;/p&gt;
+
+&lt;p&gt;Im zweiten Teil wird das Xamarin.Forms-Framework vorgestellt, das eine plattformübergreifende XAML-basierte deklarative Beschreibung auch
+auf UI-Ebene erlaubt. Zusätzlich gibt es einen Einblick in die Möglichkeiten mobiler Tests mit Hilfe von Xamarin.UITest und Xamarin Test Cloud.&lt;/p&gt;
+
+&lt;h2 id=&#34;über-den-sprecher&#34;&gt;Über den Sprecher&lt;/h2&gt;
+
+&lt;p&gt;Kerry W. Lothrop beschäftigt sich bei Zühlke als Principal Consultant mit komplexen Lösungen, die verteilte Systeme mit einander verbinden,
+vom Embedded-Gerät über das Cloud-Backend bis hin zur mobilen Anwendung. Sein technologischer Schwerpunkt liegt auf .NET und Xamarin.
+Er ist Mitbegründer der Xamarin User Group Frankfurt, Contributor für das MvvmCross-Projekt und Microsoft MVP.&lt;/p&gt;
 </description>
     </item>
     
@@ -31,17 +43,17 @@
       <guid>http://dnug-koblenz.de/termine/microservices-mit-frank-pommerening/</guid>
       <description>
 
-&lt;h2 id=&#34;abstract:ffb6b45d2a344ff4aa27a509a1287b2e&#34;&gt;Abstract&lt;/h2&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 
 &lt;p&gt;Microservices sind immer verfügbar und die Erde ist eine Scheibe – beides sind Aussagen, die nachgewiesenermaßen falsch sind,
 auch wenn es einige Verwirrte gibt, die anderes behaupten. Dieser Vortrag betrachtet, wie .NET Microservices mittels RabbitMQ
-robuster miteinander verbunden werden können. Dabei werden die Verfahren Publish / Subscribe bzw. Request / Response sowie die
+robuster miteinander verbunden werden können.  Dabei werden die Verfahren Publish / Subscribe bzw. Request / Response sowie die
 Fehlerbehandlung beleuchtet.&lt;/p&gt;
 
 &lt;p&gt;Nebenbei geht es um die Grundlagen von RabbitMQ in Windows- und Containerumgebungen. Anhand praxisnaher Beispiele werden die
 Vor- und Nachteile gegenüber der Verknüpfung mit HTTP gezeigt.&lt;/p&gt;
 
-&lt;h2 id=&#34;über-den-sprecher:ffb6b45d2a344ff4aa27a509a1287b2e&#34;&gt;Über den Sprecher&lt;/h2&gt;
+&lt;h2 id=&#34;über-den-sprecher&#34;&gt;Über den Sprecher&lt;/h2&gt;
 
 &lt;p&gt;Frank Pommerening ist seit 2004 Softwareentwickler und -architekt im Bereich .NET-Technologien.
 Er beschäftigt sich u. a. seit mehreren Jahren mit PostSharp sowie verteilten Anwendungen. Aktuell ist er Senior
