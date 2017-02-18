@@ -14,8 +14,8 @@ Universitätsstraße 3
 
 56070 Koblenz
 
-Bei Fragen könnt ihr uns gerne unter 
+Bei Fragen könnt ihr uns gerne unter
 
-* e.berres@brickmakers.de, 
-* t.ziegler@brickmakers.de 
+* e.berres@brickmakers.de,
+* t.ziegler@brickmakers.de
 * oder andre@andrekraemer.de erreichen.
