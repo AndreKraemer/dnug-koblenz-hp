@@ -13,8 +13,14 @@ xingurl = "https://www.xing.com/profile/Andre_Kraemer"
 
 ### Abstract
 
-Visual Studio wird 20 Jahre alt! Zu diesem Jubiläum werden wir uns die neue Version "Visual Studio 2017", die am 7. März veröffentlicht wird einmal genauer ansehen.
-Während des Vortrags werden André Krämer und Eric Berres erklären, welches die neuen Funktionen sind, mit denen Entwickler noch produktiver werden als zuvor.
+Visual Studio wird 20 Jahre alt! Zu diesem Jubiläum werden wir uns die neue Version "Visual Studio 2017", die am 7. März veröffentlicht wird einmal genauer ansehen. Während des Vortrags werden André Krämer und Eric Berres erklären, welches die neuen Funktionen sind, mit denen Entwickler noch produktiver werden als zuvor:
+
+- Visual Studio 2017 Installer / Workloads
+- Schnellerer Start von Visual Studio 2017 dank Lightweight Solution Load
+- Neue Refactorings in Visual Studio
+- ASP.NET Core und Docker
+- Live Unit Testing in Visual Studio 2017
+- Xamarin in Visual Studio 2017
 
 ### Über die Sprecher
 
