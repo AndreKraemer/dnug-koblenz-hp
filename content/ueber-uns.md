@@ -18,4 +18,4 @@ Jeder .NET Interessent, unabhängig ob professioneller Entwickler, Student oder 
 
 Eine formale Mitgliedschaft in der Gruppe besteht nicht. Zur besseren Planbarkeit der Termine freuen wir uns jedoch über eine kurze Anmeldung.
 
-Die Organisation der Gruppe wird von Eric Berres, André Krämer und Timo Ziegler übernommn
+Die Organisation der Gruppe wird von Eric Berres, André Krämer und Timo Ziegler übernommen
