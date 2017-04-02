@@ -2,18 +2,17 @@
 <div class="row">
     <div class="col-md-9">
         <h2>Kommende Treffen</h2>
-        {{ $futureMeetingsFound := false }}
+        {{ $.Scratch.Add "futureMeetingsFound" false }}
         {{ range first 10 (where .Data.Pages "Section" "termine") }}
             {{ if ge .Date.Unix .Now.Unix }}
-                {{ $futureMeetingsFound := true }}
+                {{ $.Scratch.Set "futureMeetingsFound" true }}
                 {{ partial "terminhomepage.html" . }}
             {{ end }}
         {{ end }}
-        {{ if eq $futureMeetingsFound false}}
+        {{ if eq ($.Scratch.Get "futureMeetingsFound") false}}
             Aktuell planen wir das nächste Treffen. Sobald wir einen Termin gefunden haben werden wir ihn hier veröffentlichen
-        {{ end}}
+        {{ end }}
          <h2>Vergangene Treffen</h2>
-        {{ $futureMeetingsFound := false }}
         {{ range first 10 (where .Data.Pages "Section" "termine") }}
             {{ if lt .Date.Unix .Now.Unix }}
                 {{ partial "terminhomepage.html" . }}
