@@ -9,7 +9,7 @@ xingurl = "https://www.xing.com/profile/Frank_Pommerening3"
 
 +++
 
-## Abstract
+<!--## Abstract-->
 
 In den fünfziger Jahren revolutionierte der Schiffscontainer die  Logistik. Eine ähnlich tiefgreifende Veränderung erfahren nun  Softwareentwicklung und Deployment mit Containern mittels des  Docker-Ökosystems. 
 
@@ -20,6 +20,6 @@ Der Vortrag von Frank  Pommerening führt in das Thema Docker unter Linux und Wi
 Zusätzlich wird gezeigt, wie mit  Docker Compose mehrere Container zu einem Anwendungsstack verbunden  werden. Ein Ausblick auf CI/CD mit Docker sowie Clustering mit Docker  Swarm rundet den Abend ab. 
 
 
-## Über den Sprecher:
+<!--## Über den Sprecher:-->
 
 Frank Pommerening ist seit 2004 Softwareentwickler und -architekt im  Bereich .NET-Technologien. Er beschäftigt sich u. a. seit mehreren  Jahren mit Microservice und verteilten Anwendungen. Aktuell ist er  Senior Softwareentwickler bei der AXP Consulting GmbH und Co. KG in Leipzig. 
