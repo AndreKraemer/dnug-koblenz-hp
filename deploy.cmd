@@ -1,4 +1,4 @@
-call hugo.bat
+call hugo.bat -F
 REM call npm install 
 IF "%ERRORLEVEL%" NEQ "0" goto error
 
