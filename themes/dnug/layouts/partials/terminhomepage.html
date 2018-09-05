@@ -9,7 +9,7 @@
         <h3>{{.Title}}, {{ .Date.Format "02.01.2006"}} um {{ .Date.Format "15:04" }} Uhr in den Räumen des TZK Koblenz mit 
             {{if isset .Params "speaker" }} 
                 {{if isset .Params "speakerurl" }}
-                    <a href="{{ .Params.speakerurl}}"> <i class="fa fa-xing" aria-hidden="true"></i> 
+                    <a href="{{ .Params.speakerurl}}"> 
                 {{ end }} 
                 {{ .Params.speaker}} 
                 {{if isset .Params "speakerurl" }}

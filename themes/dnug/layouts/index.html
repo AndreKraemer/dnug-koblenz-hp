@@ -4,7 +4,7 @@
         <h2>Kommende Treffen</h2>
         {{ $.Scratch.Add "futureMeetingsFound" false }}
         {{ range first 10 (where .Data.Pages "Section" "termine") }}
-            {{ if ge .Date.Unix .Now.Unix }}
+            {{ if ge .Date.Unix now.Unix }}
                 {{ $.Scratch.Set "futureMeetingsFound" true }}
                 {{ partial "terminhomepage.html" . }}
             {{ end }}
@@ -14,7 +14,7 @@
         {{ end }}
          <h2>Vergangene Treffen</h2>
         {{ range first 10 (where .Data.Pages "Section" "termine") }}
-            {{ if lt .Date.Unix .Now.Unix }}
+            {{ if lt .Date.Unix now.Unix }}
                 {{ partial "terminhomepage.html" . }}
             {{ end }}
         {{ end }}
