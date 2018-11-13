@@ -11,7 +11,7 @@ Wissensaustausch in diesem Bereich und damit verbundenen Produkten zu fördern.
 
 Dies geschieht in der Form von technischen Vorträgen und Diskussionen. 
 
-Wir treffen uns meist am letzten Mittwoch im Monat (ab 19.00 Uhr)in den Räumen des TechnologieZentrum Koblenz (Universitätsstraße 3, 56070 Koblenz).
+Wir treffen uns meist am letzten Mittwoch im Monat (ab 19.00 Uhr)in den Räumen der BRICKMAKERS GmbH (Am Plan 14-16, 56068 Koblenz).
 Die genauen Termine erfahrt ihr auf unserer Startseite 
 
 Jeder .NET Interessent, unabhängig ob professioneller Entwickler, Student oder Hobby-Entwickler ist zu den kostenlosen Treffen willkommen.
