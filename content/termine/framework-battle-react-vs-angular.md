@@ -1,7 +1,7 @@
 +++
 title="Frameworkbattle: React vs Angular"
 speaker = "Jonas Österle und Daniel Varela"
-speakerurl = "https://brickmakers.de.de"
+speakerurl = "https://brickmakers.de"
 xingurl = ""
 registerurl = "https://www.meetup.com/de-DE/Koblenz-NET-Meetup/events/253376999/"
 draft = false

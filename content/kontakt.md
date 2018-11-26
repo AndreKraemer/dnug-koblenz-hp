@@ -6,13 +6,13 @@ title = "Kontakt"
 
 ## Kontakt zur .NET User Group Koblenz
 
-Wir treffen uns in den Räumen des
+Wir treffen uns in den Räumen der
 
-TZK - TechnologieZentrum Koblenz GmbH
+BRICKMAKERS GmbH
 
-Universitätsstraße 3
+Am Plan 14-16
 
-56070 Koblenz
+56068 Koblenz
 
 Bei Fragen könnt ihr uns gerne unter
 

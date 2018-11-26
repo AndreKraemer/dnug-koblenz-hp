@@ -1,7 +1,7 @@
 +++
 title="System Testing"
 speaker = "Max Meffert"
-speakerurl = "https://brickmakers.de.de"
+speakerurl = "https://brickmakers.de"
 xingurl = ""
 registerurl = "https://www.meetup.com/de-DE/Koblenz-NET-Meetup/events/256368634/"
 draft = false

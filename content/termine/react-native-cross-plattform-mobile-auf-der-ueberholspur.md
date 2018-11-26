@@ -1,7 +1,7 @@
 +++
 title="React Native: Cross-Plattform-Mobile-Entwicklung auf der Überholspur"
 speaker = "Eugen Timm"
-speakerurl = "https://brickmakers.de.de"
+speakerurl = "https://brickmakers.de"
 xingurl = ""
 registerurl = "https://www.meetup.com/de-DE/Koblenz-NET-Meetup/events/254406066/"
 draft = false
