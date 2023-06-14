@@ -1,4 +1,4 @@
-baseurl = "http://dnug-koblenz.de/"
+baseurl = "https://dnug-koblenz.de/"
 languageCode = "de"
 title = ".NET User Group Koblenz"
 theme = "dnug"
