@@ -1,9 +1,19 @@
 {
-    "version": "0.1.0",
+    "version": "2.0.0",
     "command": "gulp",
-    "isShellCommand": true,
     "args": [
         "--no-color"
     ],
-    "tasks": []
+    "tasks": [
+        {
+            "label": "gulp",
+            "type": "gulp",
+            "task": "--no-color",
+            "problemMatcher": [],
+            "group": {
+                "_id": "build",
+                "isDefault": false
+            }
+        }
+    ]
 }

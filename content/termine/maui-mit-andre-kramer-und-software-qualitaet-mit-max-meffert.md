@@ -3,8 +3,8 @@ date = "2023-07-23T19:00:00+02:00"
 draft = false
 registerurl = ""
 speaker = "André Krämer und Max Meffert"
-speakerurl = "https://andrekraemer.de"
-title = ".NET MAUI: Cross-Plattform-Apps mit C# und .NET 7 mit André Krämer und Qualität in der Softwareentwicklung mit Max Meffert"
+speakerurl = ""
+title = ".NET MAUI: Cross-Plattform-Apps mit C# und .NET 7 und Qualität in der Softwareentwicklung"
 xingurl = ""
 
 +++
