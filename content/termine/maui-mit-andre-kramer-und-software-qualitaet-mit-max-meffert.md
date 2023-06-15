@@ -1,7 +1,7 @@
 +++
 date = "2023-07-19T19:00:00+02:00"
 draft = false
-registerurl = ""
+registerurl = "https://www.meetup.com/de-DE/koblenz-net-meetup/events/294201372/"
 speaker = "André Krämer und Max Meffert"
 speakerurl = ""
 title = ".NET MAUI: Cross-Plattform-Apps mit C# und .NET 7 und Qualität in der Softwareentwicklung"
